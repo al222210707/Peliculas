@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(135deg, #ff69b4, #9b59b6, #ff00ff); /* rosa, morado, fucsia */
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-size: 400% 400%;
+  animation: moverFondo 10s ease infinite;
+}
+
+@keyframes moverFondo {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.genero-btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#recomendacion {
+  margin-top: 20px;
+  font-weight: bold;
+}
